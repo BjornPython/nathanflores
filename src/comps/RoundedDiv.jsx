@@ -1,7 +1,7 @@
 import React from 'react'
 import "../css/roundedDiv.css"
 import { useState, useEffect } from 'react';
-function RoundedDiv({ content, startVal = 0, activeBtn, btnVal, frontColor = "#cfb997", backColor = "#c7cdd6" }) {
+function RoundedDiv({ content, startVal = 0, activeBtn, btnVal }) {
 
     const [y, setY] = useState(startVal);
     const [direction, setDirection] = useState(1);

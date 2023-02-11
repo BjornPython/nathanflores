@@ -1,7 +1,7 @@
 import React from 'react'
 import RoundedDiv from './RoundedDiv'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPieChart, faRocket } from '@fortawesome/free-solid-svg-icons'
+import { faPieChart, faRocket, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { useState, useEffect } from 'react'
 
 function HomeButtons() {
@@ -44,8 +44,8 @@ function HomeButtons() {
             <div onMouseEnter={() => handleBtnEnter(3)} onMouseLeave={handleBtnLeave} >
                 <RoundedDiv content={
                     <div className='home-btn'>
-                        <h3>mySkills</h3>
-                        <FontAwesomeIcon icon={faPieChart} />
+                        <h3>contactMe</h3>
+                        <FontAwesomeIcon icon={faPhone} />
                     </div>
                 } startVal={-2} activeBtn={activeBtn} btnVal={3} />
             </div>

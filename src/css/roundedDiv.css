@@ -12,14 +12,14 @@
 }
 
 .div-front {
-    padding: 15px;
+    padding: 15px 15px;
     border-radius: 25px;
     cursor: pointer;
     background-color: #cfb997;
 }
 
 .div-front:hover {
-    padding: 18px;
+    padding: 18px 15px;
     background-color: gray;
     transition: padding 0.2s ease-in-out;
 }
