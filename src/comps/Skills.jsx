@@ -10,6 +10,8 @@ import nodeJs from "../svgs/node-js.svg"
 import mongoDb from "../svgs/mongodb-icon.svg"
 import python from "../svgs/python.svg"
 import flask from "../svgs/flask.svg"
+import express from "../svgs/expressJS.svg"
+
 function Skills() {
     return (
         <div className='skill-contents'>
@@ -37,7 +39,10 @@ function Skills() {
                 <h3>• Redux</h3>
                 <img src={redux} alt="" className='tech-icn' />
             </div>
-
+            <div className='skill-div'>
+                <h3>• ExpressJS</h3>
+                <img src={express} alt="" className='tech-icn' />
+            </div>
             <div className='skill-div'>
                 <h3>• NodeJS</h3>
                 <img src={nodeJs} alt="" className='tech-icn' />
@@ -54,6 +59,7 @@ function Skills() {
                 <h3>• Flask</h3>
                 <img src={flask} alt="" className='tech-icn' />
             </div>
+
 
         </div>
     )

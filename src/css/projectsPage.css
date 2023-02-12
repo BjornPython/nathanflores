@@ -1,6 +1,6 @@
 .projects-page {
     width: 100%;
-    height: 700px;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,8 +8,10 @@
 
 .projects-contents {
     width: 80%;
+    color: white;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .project {
@@ -18,4 +20,115 @@
 
 .back-project {
     background-color: #c7cdd6;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project-image {
+    border-radius: 15px;
+    width: 300px;
+}
+
+.carousel-parent {
+    margin-top: 20px;
+    width:300px;
+    height: 420px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.carousel-div {
+    margin-top: 5px;
+    position: absolute;
+    display: flex;
+    top: 0px;
+    width: 900px;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+
+
+.project-about, .project-tech, .project-links  {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about-contents {
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: white;
+    color: #446389;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-contents p  {
+    width: 90%;
+    text-align: justify;
+}
+
+
+.project-btns {
+    position: absolute;
+    top: 200px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.arrow-btns {
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+
+.arrow-btns:hover {
+    color: gray;
+    transition: color  0.2s ease-in-out;
+}
+
+.tech-used-contents {
+    margin-top: 20px;
+
+    width: 90%;
+    color: #446389;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.tech-used {
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tech-used p {
+    margin-left: 20px;
+}
+
+.tech-used img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.links-contents {
+    display: flex;
+    flex-direction: column;
 }
