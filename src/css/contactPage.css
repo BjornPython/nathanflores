@@ -42,7 +42,10 @@
     border: none;
     height: 40px;
     border-radius: 15px;
+    padding: 0 15px;
     margin-top: 10px;
+    font-size: 1rem;
+    font-family: sans-serif;
 }
 
 #message {
@@ -53,4 +56,25 @@
     border-radius: 15px;
     margin-top: 10px;
     font-size: 1rem;
+}
+
+.submit-btn {
+    margin-top: 15px;
+    margin-right: 5px;
+    color: white;
+    align-self: flex-end;
+    padding: 15px;
+    background-color: #446389;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: gray;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.submit-btn h2 {
+    margin: 0;
+    font-weight: 400;
 }

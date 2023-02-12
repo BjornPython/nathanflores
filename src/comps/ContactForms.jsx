@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 function ContactForms() {
     const handleSubmit = () => {
 
@@ -15,7 +16,8 @@ function ContactForms() {
 
             <textarea id="message" name="" cols="30" rows="10" placeholder='Your mesage...'></textarea>
 
-            <div onClick={handleSubmit}>
+            <div onClick={handleSubmit} className="submit-btn">
+                <FontAwesomeIcon icon={faPaperPlane} />
 
             </div>
 
