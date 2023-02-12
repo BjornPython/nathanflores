@@ -43,7 +43,7 @@ function ProjectContent() {
                 <div className='carousel-div' style={{ ...carouselTransition }}>
 
                     <div className='project-about'>
-                        <h3>ABOUT</h3>
+                        <h3>about</h3>
                         <div className='about-contents'>
                             <p> A user-friendly platform,
                                 specifically designed to bring martial artists together.
@@ -61,7 +61,7 @@ function ProjectContent() {
                         </div>
                     </div>
                     <div className='project-tech'>
-                        <h3>TECH USED</h3>
+                        <h3>techUsed</h3>
                         <div className='tech-used-contents'>
                             <div className='tech-used'><p>• JavaScript</p> <img src={js} style={{ marginTop: "10px" }} /></div>
                             <div className='tech-used'><p>• React</p> <img src={reactIcon} /></div>
@@ -73,7 +73,7 @@ function ProjectContent() {
                     </div>
 
                     <div className='project-links'>
-                        <h3>LINKS</h3>
+                        <h3>links</h3>
                         <div className='links-contents'>
                         </div>
                     </div>

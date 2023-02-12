@@ -14,28 +14,43 @@
     text-align: center;
 }
 
+.projects-page {
+    display: flex;
+    flex-direction: column;
+}
 
-.download-div {
-    margin-top: 30px;
-    align-self: flex-end;
+.project-txt-dsgn {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.project-txt-dsgn h1 {
+    color: #446389;
+}
+
+.download-div {
+    color: gray;
+    margin-top: 30px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
     align-items: center;
     position: relative;
+    column-gap: 20px;
 }
 
 .download-icn {
     top: 10px;
     cursor: pointer;
-    position: absolute;
     font-size: 2rem;
     color: gray;
 }
 
 .download-icn:hover {
-    font-size: 2.4rem;
-    transition: font-size 0.2s ease-in-out;
+    color: #88838a;
 }
 
 .name-bio {

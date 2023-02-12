@@ -2,7 +2,12 @@ import React from 'react'
 import "../css/contactPage.css"
 import RoundedComponent from './RoundedComponent'
 import ContactForms from './ContactForms'
+import ContactInfo from './ContactInfo'
+
 function ContactPage() {
+
+
+
     return (
         <div className='contact-page'>
 
@@ -12,8 +17,8 @@ function ContactPage() {
                 </div>
                 <h1>or</h1>
                 <div className="contact-me">
-                    <h1>contact</h1>
-
+                    <RoundedComponent content={<ContactInfo />} frontCompClass="contact-info" backCompClass="back-contact-info" />
+                    <h4>downloadCv()</h4>
                 </div>
             </div>
         </div>

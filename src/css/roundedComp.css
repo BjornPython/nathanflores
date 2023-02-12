@@ -31,9 +31,6 @@
     background-color: white;
 }
 
-.skills:hover + .back-skills {
-    background-color: gray;
-}
 
 .back-skills {
     background-color: #c7cdd6;
@@ -53,5 +50,13 @@
 }
 
 .back-contact-forms {
+    background-color: #446389;
+}
+
+.contact-info {
+    background-color: #cfb997;
+}
+
+.back-contact-info {
     background-color: #446389;
 }
