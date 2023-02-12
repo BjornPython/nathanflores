@@ -12,18 +12,16 @@
 
 .front-comp:hover,
 .front-comp:hover + .back-comp {
-    padding: 25px 25px;
-    transform: translateY(-10px);
+    transform: translateY(-20px);
     transition: 0.4s ease-in-out;
 }
 
 .back-comp {
     transition: 0.4s ease-in-out;
-    padding: 18px 15px;
     position: absolute;
     z-index: -1;
-    top:10px;
-    left: 10px;
+    top:15px;
+    left: 15px;
     border-radius: 15px;
     width: 100%;
     height: 100%;
@@ -35,4 +33,13 @@
 
 .back-skills {
     background-color: #c7cdd6;
+}
+
+.methodology {
+    background-color: white;
+}
+
+.back-methodology {
+    background-color: #c7cdd6;
+
 }

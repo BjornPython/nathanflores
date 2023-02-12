@@ -21,7 +21,7 @@
 .div-front:hover {
     padding: 18px 15px;
     background-color: gray;
-    transition: padding 0.2s ease-in-out;
+    transition: padding background-color 0.2s ease-in-out;
 }
 
 

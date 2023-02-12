@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPieChart } from '@fortawesome/free-solid-svg-icons'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 import js from "../svgs/javascript.svg"
 import reactIcon from "../svgs/react.svg"
@@ -15,6 +16,7 @@ function Skills() {
 
             <div className='skill-title'>
                 <h1>mySkills</h1>
+                <FontAwesomeIcon icon={faPieChart} className="sc-skills-icn" />
             </div>
 
             <div className='skill-div'>

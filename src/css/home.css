@@ -26,6 +26,8 @@
 }
 
 .download-icn {
+    top: 10px;
+    cursor: pointer;
     position: absolute;
     font-size: 2rem;
     color: gray;
