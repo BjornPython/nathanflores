@@ -31,6 +31,10 @@
     background-color: white;
 }
 
+.skills:hover + .back-skills {
+    background-color: gray;
+}
+
 .back-skills {
     background-color: #c7cdd6;
 }
@@ -42,4 +46,12 @@
 .back-methodology {
     background-color: #c7cdd6;
 
+}
+
+.contact-forms {
+    background-color: #c7cdd6;
+}
+
+.back-contact-forms {
+    background-color: gray;
 }

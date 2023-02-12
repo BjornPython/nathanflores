@@ -75,7 +75,6 @@ function ProjectContent() {
                     <div className='project-links'>
                         <h3>LINKS</h3>
                         <div className='links-contents'>
-
                         </div>
                     </div>
 
