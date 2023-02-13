@@ -1,0 +1,25 @@
+.projects-contents .hidden:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.projects-contents .hidden:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+ }
+
+@media (prefers-reduced-motion) {
+    
+    .hidden {
+        transition: none;
+    }
+}

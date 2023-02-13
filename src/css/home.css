@@ -14,6 +14,13 @@
     text-align: center;
 }
 
+.code-dsgn {
+    margin-top: 200px;
+    color: #446389;
+    align-self: flex-end;
+    font-size: 4rem;
+}
+
 .projects-page {
     display: flex;
     flex-direction: column;
@@ -32,15 +39,31 @@
 }
 
 .download-div {
-    color: gray;
     margin-top: 30px;
-    align-self: flex-end;
+    width: 472px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    column-gap: 20px;
+    justify-content: flex-end;
 }
+
+.resume-btn {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 15px;
+    color: gray;
+    cursor: pointer;
+    transition: background-color ease-in;
+}
+
+.resume-btn:hover {
+    background-color: gray;
+    color: white;
+    transition: background-color ease-in;
+}
+
+
 
 .download-icn {
     top: 10px;

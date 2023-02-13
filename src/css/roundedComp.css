@@ -10,11 +10,11 @@
     transition: 0.4s ease-in-out;
 }
 
-.front-comp:hover,
+/* .front-comp:hover,
 .front-comp:hover + .back-comp {
     transform: translateY(-10px);
     transition: 0.4s ease-in-out;
-}
+} */
 
 .back-comp {
     transition: 0.4s ease-in-out;
@@ -30,18 +30,36 @@
 .skills {
     background-color: white;
 }
+.skills:hover,
+.skills:hover + .back-skills {
+    transform: translateY(-10px);
+    transition: 0.4s ease-in-out;
+}
 
+
+.skills:hover + .back-skills {
+
+    background-color: #c7cdd6;
+    top: 30px;
+    left: 30px;
+}
 
 .back-skills {
-    background-color: #c7cdd6;
+    background-color: gray;
 }
 
 .methodology {
     background-color: white;
 }
 
-.back-methodology {
+.methodology:hover + .back-methodology {
     background-color: #c7cdd6;
+    top: 30px;
+    left: 25px;
+}
+
+.back-methodology {
+    background-color: gray;
 
 }
 

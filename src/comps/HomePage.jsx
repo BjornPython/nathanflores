@@ -7,10 +7,7 @@ function HomePage() {
     return (
         <div className='home-page'>
 
-            <div className='download-div'>
-                <h3>const resumePreview =</h3>
-                < FontAwesomeIcon icon={faFile} className="download-icn" />
-            </div>
+
 
             <div className="name-bio">
                 <h1>Nathan Flores</h1>
@@ -18,7 +15,10 @@ function HomePage() {
             </div>
 
             <HomeButtons />
-
+            <div className='download-div'>
+                <button className='resume-btn'>myResume <FontAwesomeIcon icon={faFile} className="file-icn" /></button>
+            </div>
+            <h1 className='code-dsgn'>{"< />"}</h1>
         </div>
     )
 }

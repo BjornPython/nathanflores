@@ -2,11 +2,12 @@
     width: 100%;
     height: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .projects-contents {
+    margin-top: 250px;
     width: 80%;
     color: white;
     display: flex;
@@ -16,10 +17,62 @@
 
 .project {
     background-color: #446389;
+    overflow: hidden;
+    height: 400px;
 } 
+.project:hover {
+    transform: translateY(-10px);
+    height: 600px;
+}
+.project:hover + .back-project {
+    top: 25px;
+    left: 25px;
+    height: 640px;
+}
 
 .back-project {
     background-color: #c7cdd6;
+    height: 440px;
+}
+
+.projectTwo {
+    background-color: #446389;
+    overflow: hidden;
+    height: 400px;
+} 
+.projectTwo:hover {
+    transform: translateY(-10px);
+    height: 600px;
+}
+.projectTwo:hover + .back-projectTwo {
+    top: 25px;
+    left: 25px;
+    height: 640px;
+}
+
+.back-projectTwo {
+    background-color: #c7cdd6;
+    height: 440px;
+}
+
+.projectThree {
+    background-color: #446389;
+    overflow: hidden;
+    height: 400px;
+} 
+.projectThree:hover {
+    transform: translateY(-10px);
+    height: 600px;
+}
+.projectThree:hover + .back-projectThree {
+    top: 25px;
+    left: 25px;
+    height: 640px;
+}
+
+.back-projectThree {
+    background-color: #c7cdd6;
+    height: 440px;
 }
 
 .project-content {
