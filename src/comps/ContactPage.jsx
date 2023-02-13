@@ -12,11 +12,11 @@ function ContactPage() {
         <div className='contact-page'>
 
             <div className="contact-contents">
-                <div className="contact-div">
+                <div className="contact-div hidden">
                     <RoundedComponent content={<ContactForms />} frontCompClass="contact-forms" backCompClass="back-contact-forms" />
                 </div>
                 <h1>or</h1>
-                <div className="contact-me">
+                <div className="contact-me hidden">
                     <RoundedComponent content={<ContactInfo />} frontCompClass="contact-info" backCompClass="back-contact-info" />
                     <h4>downloadCv()</h4>
                 </div>

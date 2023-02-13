@@ -7,8 +7,12 @@ function SkillsPage() {
     return (
         <div className='skills-page'>
             <div className="skills-contents">
-                <RoundedComponent content={<Skills />} frontCompClass={"skills"} backCompClass={"back-skills"} />
-                <RoundedComponent content={<Backend />} frontCompClass={"skills"} backCompClass={"back-skills"} />
+                <div className='hidden frontend-div'>
+                    <RoundedComponent content={<Skills />} frontCompClass={"skills"} backCompClass={"back-skills"} />
+                </div>
+                <div className='hidden backend-div'>
+                    <RoundedComponent content={<Backend />} frontCompClass={"skills"} backCompClass={"back-skills"} />
+                </div>
             </div>
         </div>
     )

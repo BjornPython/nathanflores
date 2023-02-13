@@ -28,7 +28,11 @@
 }
 
 .skills {
+    color: #446389;
     background-color: white;
+    border: 1px solid gray;
+    /* background-color: #c7cdd6; */
+    /* background-color: #cfb997; */
 }
 .skills:hover,
 .skills:hover + .back-skills {
@@ -39,7 +43,7 @@
 
 .skills:hover + .back-skills {
 
-    background-color: #c7cdd6;
+    background-color: #7b8fa1;
     top: 30px;
     left: 30px;
 }

@@ -12,10 +12,15 @@
     transition: all 1s;
 }
 
+
 .show {
     opacity: 1;
     transform: translateX(0);
+    transition: all 1s;
  }
+
+
+
 
 @media (prefers-reduced-motion) {
     
