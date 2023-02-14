@@ -16,7 +16,8 @@
 }
 
 .project {
-    background-color: #446389;
+    background: linear-gradient(#0CBABA, #0D324D);
+
     overflow: hidden;
     height: 400px;
 } 
@@ -36,6 +37,8 @@
 }
 
 .projectTwo {
+    background: linear-gradient(#446389, #9198e5);
+
     background-color: #446389;
     overflow: hidden;
     height: 400px;
@@ -56,6 +59,8 @@
 }
 
 .projectThree {
+    background: linear-gradient(#446389, #9198e5);
+
     background-color: #446389;
     overflow: hidden;
     height: 400px;

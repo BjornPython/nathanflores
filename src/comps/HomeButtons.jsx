@@ -22,33 +22,33 @@ function HomeButtons() {
 
     return (
         <div className='home-btns'>
-            <div onMouseEnter={() => handleBtnEnter(1)} onMouseLeave={handleBtnLeave} >
+            <a onMouseEnter={() => handleBtnEnter(1)} onMouseLeave={handleBtnLeave} href={"#skills-page-anchor"}  >
                 <RoundedDiv content={
                     <div className='home-btn'>
                         <h3>mySkills</h3>
                         <FontAwesomeIcon icon={faPieChart} />
                     </div>
                 } startVal={2} activeBtn={activeBtn} btnVal={1} />
-            </div>
+            </a>
 
-            <div onMouseEnter={() => handleBtnEnter(2)} onMouseLeave={handleBtnLeave} >
+            <a onMouseEnter={() => handleBtnEnter(2)} onMouseLeave={handleBtnLeave} href={"#project-page-anchor"} >
                 <RoundedDiv content={
                     <div className='home-btn'>
                         <h3>myProjects</h3>
                         <FontAwesomeIcon icon={faRocket} />
                     </div>
                 } startVal={0} activeBtn={activeBtn} btnVal={2} />
-            </div>
+            </a>
 
 
-            <div onMouseEnter={() => handleBtnEnter(3)} onMouseLeave={handleBtnLeave} >
+            <a onMouseEnter={() => handleBtnEnter(3)} onMouseLeave={handleBtnLeave} href={"#contact-page-anchor"} >
                 <RoundedDiv content={
                     <div className='home-btn'>
                         <h3>contactMe</h3>
                         <FontAwesomeIcon icon={faPhone} />
                     </div>
                 } startVal={-2} activeBtn={activeBtn} btnVal={3} />
-            </div>
+            </a>
 
         </div>
     )

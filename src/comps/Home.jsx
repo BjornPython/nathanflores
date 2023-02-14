@@ -9,8 +9,11 @@ function Home() {
     return (
         <div className="app-page">
             <HomePage />
+            <div id='skills-page-anchor'></div>
             <SkillsPage />
+            <div id='project-page-anchor'></div>
             <ProjectsPage />
+            <div id='contact-page-anchor'></div>
             <ContactPage />
         </div>
 

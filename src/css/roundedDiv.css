@@ -13,13 +13,15 @@
 
 .div-front {
     padding: 15px 15px;
+    color: white;
     border-radius: 25px;
     cursor: pointer;
-    background-color: #cfb997;
+    background-color: #0CBABA;
+    background: linear-gradient(to right ,#0CBABA, #007373);
 }
 
 .div-front:hover {
-    background-color: gray;
+    color: #c7cdd6;
     transition: padding background-color 0.2s ease-in-out;
 }
 

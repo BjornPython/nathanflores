@@ -20,7 +20,6 @@
 
 
 .contact-forms-div {
-    color: #446389;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -43,7 +42,7 @@
 
 .name-email input {
     width: 80%;
-    border: none;
+    border: 1px solid gray;
     height: 40px;
     border-radius: 15px;
     padding: 0 15px;
@@ -55,7 +54,7 @@
 #message {
     font-family: sans-serif;
     width: 90%;
-    border: none;
+    border: 1px solid gray;
     padding: 15px;
     border-radius: 15px;
     margin-top: 10px;
@@ -98,6 +97,7 @@
 }
 
 .contact-info-div h2 {
+    color: white;
     margin: 0;
     margin-bottom: 30px;
 }
@@ -109,10 +109,20 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    column-gap: 20px;
     height: auto;
     width: 90%;
     height: 30px;
+    column-gap: 15px;
+}
+
+.contact-email {
+    margin: 0;
+    width: 22px;
+    cursor: pointer;
+}
+
+.contact-email:hover {
+    background-color: gray;
 }
 
 .contact-icons {

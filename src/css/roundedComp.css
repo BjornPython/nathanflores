@@ -31,8 +31,7 @@
     color: #446389;
     background-color: white;
     border: 1px solid gray;
-    /* background-color: #c7cdd6; */
-    /* background-color: #cfb997; */
+
 }
 .skills:hover,
 .skills:hover + .back-skills {
@@ -68,17 +67,46 @@
 }
 
 .contact-forms {
-    background-color: #c7cdd6;
+    background-color: white;
+    background: linear-gradient(#446389, #9198e5);
+    color: white;
+    border: 1px solid gray;
+}
+
+.contact-forms:hover,
+.contact-forms:hover + .back-contact-forms {
+    transform: translateY(-10px);
+    transition: 0.4s ease-in-out;
+}
+
+.contact-forms:hover + .back-contact-forms {
+    background-color: #7b8fa1;
+    top: 30px;
+    left: 25px;
 }
 
 .back-contact-forms {
-    background-color: #446389;
+    background-color: gray;
 }
 
+
 .contact-info {
-    background-color: #cfb997;
+    background-color: #9198e5;
+    background: linear-gradient(#9198e5, #446389);
+}
+
+.contact-info:hover,
+.contact-info:hover + .back-contact-info {
+    transform: translateY(-10px);
+    transition: 0.4s ease-in-out;
+}
+
+.contact-info:hover + .back-contact-info {
+    background-color: #7b8fa1;
+    top: 30px;
+    left: 25px;
 }
 
 .back-contact-info {
-    background-color: #446389;
+    background-color: gray;
 }

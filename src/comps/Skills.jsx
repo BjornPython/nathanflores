@@ -13,7 +13,7 @@ function Skills() {
         <div className='skill-contents'>
 
             <div className='skill-title'>
-                <h1>frontendSkills</h1>
+                <h1 style={{ color: "gray" }}>frontendSkills</h1>
                 <FontAwesomeIcon icon={faPieChart} className="sc-skills-icn" />
             </div>
 
