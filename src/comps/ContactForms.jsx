@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import emailjs from "@emailjs/browser"
 import { useEffect } from 'react'
-const SERVICE_ID = "service_d4ks5xq"
-const TEMPLATE_ID = "template_2dn1mg7"
-const PUBLICK_KEY = "Er2UekxbigdHkH7PP"
+
 
 function ContactForms() {
 
