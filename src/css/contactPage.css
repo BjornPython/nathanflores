@@ -25,6 +25,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .name-email {
@@ -138,4 +139,9 @@
 
 .contact-me h4 {
     color: gray;
+}
+
+.forms-err-msg {
+    position: absolute;
+    top: -50px
 }

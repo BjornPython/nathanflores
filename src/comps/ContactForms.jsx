@@ -1,13 +1,63 @@
 import React, { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import emailjs from "@emailjs/browser"
+import { useEffect } from 'react'
+const SERVICE_ID = "service_d4ks5xq"
+const TEMPLATE_ID = "template_2dn1mg7"
+const PUBLICK_KEY = "Er2UekxbigdHkH7PP"
+
 function ContactForms() {
 
+    const [error, setError] = useState(false)
+    const [errorMsg, setErrorMsg] = useState("")
     const [formsValues, setFormsValues] = useState({ name: "", email: "", message: "" })
     const { name, email, message } = formsValues
 
+
+    useEffect(() => {
+        let timeoutId;
+
+        if (showError) {
+            // Set a new timer to set the "showError" state to false after 3 seconds
+            timeoutId = setTimeout(() => {
+                setError(false);
+            }, 3000);
+        }
+
+        // Clean up the previous timer (if any) when the component unmounts or the "showError" state changes
+        return () => {
+            clearTimeout(timeoutId);
+        };
+    }, [error]);
+
+
     const handleSubmit = () => {
         console.log(formsValues);
+        if (email === "" || name === "" || message === "") {
+
+            showError()
+            setErrorMsg(<h3 style={{ color: "red" }}>Please Fill All Fields</h3>)
+        } else {
+            emailjs.send(SERVICE_ID, TEMPLATE_ID, formsValues, PUBLICK_KEY)
+                .then((result) => {
+                    console.log(result.text);
+                    resetForms()
+                    showError()
+                    setErrorMsg(<h3 style={{ color: "green" }}>Message Sent Succesfully!</h3>)
+                }, (error) => {
+                    console.log(error.text);
+                    showError()
+                    setErrorMsg(<h3 style={{ color: "red" }}>{error.text}</h3>)
+                });
+        }
+
+    };
+
+    const resetForms = () => {
+        setFormsValues({ name: "", email: "", message: "" })
+    }
+
+    const showError = () => {
+        setError(true)
     }
 
     const handleChange = (e) => {
@@ -17,6 +67,7 @@ function ContactForms() {
     }
     return (
         <div className='contact-forms-div'>
+
             <div className='name-email'>
                 <h3>name</h3>
                 <input type="text" name="name" value={name} onChange={handleChange} />
@@ -29,8 +80,12 @@ function ContactForms() {
 
             <div onClick={handleSubmit} className="submit-btn">
                 <h3>sendMessage()</h3>
-
             </div>
+            {error &&
+                <div className='forms-err-msg'>
+                    {errorMsg}
+                </div>
+            }
 
         </div>
     )
