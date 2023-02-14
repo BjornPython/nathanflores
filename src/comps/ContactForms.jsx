@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import emailjs from "@emailjs/browser"
 import { useEffect } from 'react'
-const SERVICE_ID = "service_d4ks5xq"
-const TEMPLATE_ID = "template_2dn1mg7"
-const PUBLICK_KEY = "Er2UekxbigdHkH7PP"
+
 
 function ContactForms() {
 
@@ -37,7 +35,8 @@ function ContactForms() {
             showError()
             setErrorMsg(<h3 style={{ color: "red" }}>Please Fill All Fields</h3>)
         } else {
-            emailjs.send(SERVICE_ID, TEMPLATE_ID, formsValues, PUBLICK_KEY)
+            console.log(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, formsValues, process.env.REACT_APP_PUBLICK_KEY);
+            emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, formsValues, process.env.REACT_APP_PUBLICK_KEY)
                 .then((result) => {
                     console.log(result.text);
                     resetForms()
