@@ -118,3 +118,64 @@
 .home-btn h3 {
     font-weight: 400;
 }
+
+
+@media (max-width: 520px) {
+    .home-btns {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .download-div {
+        margin-top: 100px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .code-dsgn {
+        margin-top: 50px;
+    }
+
+    .home-btns a:nth-child(1) {
+        width: 120px;
+    }
+
+    .home-btns a:nth-child(2) {
+        width: 140px;
+    }
+
+    .home-btns a:nth-child(3) {
+        width: 140px;
+    }
+
+
+}
+
+@media (max-width: 460px) {
+
+    .home-btns {
+        padding: 5px;
+    }
+
+    .home-btn {
+        font-size: 16px;
+    }
+
+    .resume-btn {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .home-btns a:nth-child(1) {
+        width: 105px;
+    }
+
+    .home-btns a:nth-child(2) {
+        width: 120px;
+    }
+
+    .home-btns a:nth-child(3) {
+        width: 120px;
+    }
+} 
