@@ -4,7 +4,7 @@ import HomePage from './HomePage'
 import SkillsPage from './SkillsPage'
 import ProjectsPage from './ProjectsPage'
 import ContactPage from './ContactPage'
-
+import AboutPage from './AboutPage'
 function Home() {
     return (
         <div className="app-page">
@@ -13,6 +13,7 @@ function Home() {
             <SkillsPage />
             <div id='project-page-anchor'></div>
             <ProjectsPage />
+            <AboutPage />
             <div id='contact-page-anchor'></div>
             <ContactPage />
         </div>

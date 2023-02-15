@@ -1,0 +1,29 @@
+.about-page {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#446389, #9198e5);
+
+
+}
+
+.about-page-contents {
+    color: white;
+    width: 90%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.main-about {
+    background-color: white;
+    border-radius: 15px;
+    color: #446389;
+    font-weight: 500;
+    padding: 20px;
+}

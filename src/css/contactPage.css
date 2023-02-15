@@ -120,10 +120,11 @@
     margin: 0;
     width: 22px;
     cursor: pointer;
+    border-bottom: 2px solid #9198e5;
 }
 
 .contact-email:hover {
-    background-color: gray;
+    border-bottom: 2px solid #446389;
 }
 
 .contact-icons {
@@ -139,6 +140,7 @@
 
 .contact-me h4 {
     color: gray;
+    cursor: pointer;
 }
 
 .forms-err-msg {

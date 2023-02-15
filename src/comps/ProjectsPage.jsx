@@ -7,7 +7,7 @@ import ProjectContent from './ProjectContent'
 function ProjectsPage() {
     return (
         <div className='projects-page'>
-
+            <h1>PROJECTS</h1>
 
             <div className='projects-contents' >
                 <div className='hidden'>
