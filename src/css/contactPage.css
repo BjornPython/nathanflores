@@ -147,3 +147,26 @@
     position: absolute;
     top: -50px
 }
+
+@media (max-width: 1000px) {
+
+    .contact-page {
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .contact-contents {
+        width: 100%;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 500px) {
+    
+    .contact-forms-div {
+        width: 300px;
+    }
+
+    .contact-info-div {}
+}

@@ -71,3 +71,27 @@
     font-size: 1.4rem;
     width: 30px;
 }
+
+@media (max-width: 850px) {
+    .skills-contents {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .frontend-div {
+        margin-bottom: 0;
+        margin-right: 30%;
+    }
+
+    .backend-div {
+        margin-top: 40px;
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 580px) {
+    .frontend-div, .backend-div {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
