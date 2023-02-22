@@ -11,7 +11,9 @@ function AboutPage() {
                     Throughout my learning journey, I have consistently demonstrated a strong work ethic and a commitment to learning software development.
                 </p>
                 <p className='main-about'>
-                    Through my learning and experience in building web applications, I have developed a solid foundation in web development. I am skilled in using frontend frameworks such as React and Angular, and proficient in using HTML, CSS, and JavaScript to build complex web applications. I am also experienced in using NodeJS, Python, and Flask in developing backend services and APIs, as well as working with MongoDB for database management.
+                    I have a solid foundation in web development. I am skilled in using frontend frameworks such as React and Angular,
+                    proficient in using HTML, CSS, and JavaScript, and experienced in using NodeJS, Python, and Flask in developing backend services
+                    and APIs, as well as working with MongoDB for database management.
                 </p>
 
                 <p>

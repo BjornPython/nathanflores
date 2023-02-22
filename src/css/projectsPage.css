@@ -7,7 +7,7 @@
 }
 
 .projects-page h1 {
-    margin-top: 80px;
+    margin-top: 150px;
     font-size: 3rem;
     color: #446389;
 }
@@ -211,7 +211,7 @@
 @media (max-width: 1200px) {
 
     .projects-page {
-        height: 2400px;
+        height: 2500px;
     }
 
     .projects-contents {
@@ -256,7 +256,7 @@
 
 @media (max-width: 850px) {
     .projects-page h1 {
-        margin-top:  200px;
+        margin-top:  280px;
 
     }
 }

@@ -7,7 +7,9 @@ import mongoDb from "../svgs/mongodb-icon.svg"
 import python from "../svgs/python.svg"
 import flask from "../svgs/flask.svg"
 import express from "../svgs/expressJS.svg"
-
+import heroku from "../svgs/heroku.svg"
+import netlify from "../svgs/netlify.svg"
+import firebase from "../svgs/firebase-icon.svg"
 function Methodology() {
     return (
         <div className='skill-contents'>
@@ -31,12 +33,26 @@ function Methodology() {
                 <img src={mongoDb} alt="" className='tech-icn' />
             </div>
             <div className='skill-div'>
+                <h3>• Firebase</h3>
+                <img src={firebase} alt="" className='tech-icn' />
+            </div>
+            <div className='skill-div'>
                 <h3>• Python</h3>
                 <img src={python} alt="" className='tech-icn' />
             </div>
             <div className='skill-div'>
                 <h3>• Flask</h3>
                 <img src={flask} alt="" className='tech-icn' />
+            </div>
+            <hr />
+            <h3>others</h3>
+            <div className='skill-div'>
+                <h3>• Heroku</h3>
+                <img src={heroku} alt="" className='tech-icn' />
+            </div>
+            <div className='skill-div'>
+                <h3>• Netlify</h3>
+                <img src={netlify} alt="" className='tech-icn' />
             </div>
 
 

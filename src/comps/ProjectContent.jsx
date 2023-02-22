@@ -4,14 +4,13 @@ import website from "../images/locate-homepage.png"
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import js from "../svgs/javascript.svg"
 import reactIcon from "../svgs/react.svg"
 import redux from "../svgs/redux.svg"
 import nodeJs from "../svgs/node-js.svg"
 import mongoDb from "../svgs/mongodb-icon.svg"
 import express from "../svgs/expressJS.svg"
-
+import locateDemo from "../vids/locate-martial-arts-demo.mp4"
 function ProjectContent() {
 
     const [xVal, setxVal] = useState(0)
@@ -37,7 +36,11 @@ function ProjectContent() {
 
     return (
         <div className='project-content ' >
-            <img className='project-image' src={website}></img>
+            <video autoPlay loop muted className='project-image' src={locateDemo}></video>
+            {/* 
+            <video loop autoPlay={true} className='project-image'>
+                <source src={locateDemo} type="video/mp4" />
+            </video> */}
 
             <div className='carousel-parent' >
                 <div className='carousel-div' style={{ ...carouselTransition }}>
