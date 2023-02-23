@@ -134,6 +134,7 @@
 }
 
 .about-contents {
+    width: 100%;
     margin-top: 20px;
     border-radius: 15px;
     background-color: white;
@@ -142,11 +143,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px 0;
 }
 
 .about-contents p  {
+    margin: 5px;
+    background-color: white;
     width: 90%;
-    text-align: justify;
+    text-align: flex-start;
 }
 
 

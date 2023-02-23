@@ -53,17 +53,23 @@ function ProjectContent() {
                         <h3>about</h3>
                         <div className='about-contents'>
                             <p> A platform designed to bring martial artists together.
-                                Integrated with a working leaflet maps,
-                                users can search the map for the locations of
-                                nearby fellow martial artists.
+                                Integrated with a working google maps like map,
+                                users can locate nearby fellow martial artists.
                             </p>
-                            <p>
+                        </div>
+                        <div className='about-contents'>
+                            <p>• Search address autocomplete</p>
+                            <p>• Realtime Messaging Interface</p>
+                            <p>• User accounts</p>
+                            <p>• Customizable User Profile</p>
+                            <p>• Automatic user location</p>
+                            {/* <p>
                                 Users can search their addresses, create their personalized
                                 accounts, communicate with other members,
                                 and personalize their profile. All user information is stored
                                 in a MongoDB database, with jwt token auth verification
                                 providing a safe and secure platform.
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                     <div className='project-tech'>
