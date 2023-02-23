@@ -11,6 +11,10 @@ import nodeJs from "../svgs/node-js.svg"
 import mongoDb from "../svgs/mongodb-icon.svg"
 import express from "../svgs/expressJS.svg"
 import locateDemo from "../vids/locate-martial-arts-demo.mp4"
+import github from "../svgs/github.svg"
+import rocket from "../svgs/rocket.svg"
+import netlify from "../svgs/netlify.svg"
+import render from "../svgs/render.svg"
 function ProjectContent() {
 
     const [xVal, setxVal] = useState(0)
@@ -48,18 +52,17 @@ function ProjectContent() {
                     <div className='project-about'>
                         <h3>about</h3>
                         <div className='about-contents'>
-                            <p> A user-friendly platform,
-                                specifically designed to bring martial artists together.
+                            <p> A platform designed to bring martial artists together.
                                 Integrated with a working leaflet maps,
                                 users can search the map for the locations of
                                 nearby fellow martial artists.
                             </p>
                             <p>
-                                Users can create their personalized
-                                accounts, allowing them to communicate with other members,
+                                Users can search their addresses, create their personalized
+                                accounts, communicate with other members,
                                 and personalize their profile. All user information is stored
-                                in a MongoDB database, with jwt token auth verification for
-                                every request, providing a safe and secure platform.
+                                in a MongoDB database, with jwt token auth verification
+                                providing a safe and secure platform.
                             </p>
                         </div>
                     </div>
@@ -68,16 +71,22 @@ function ProjectContent() {
                         <div className='tech-used-contents'>
                             <div className='tech-used'><p>• JavaScript</p> <img src={js} style={{ marginTop: "10px" }} /></div>
                             <div className='tech-used'><p>• React</p> <img src={reactIcon} /></div>
-                            <div className='tech-used'><p>• NodeJS</p> <img src={nodeJs} /></div>
-                            <div className='tech-used'><p>• MongoDB</p> <img src={mongoDb} /></div>
                             <div className='tech-used'><p>• Redux</p> <img src={redux} /></div>
+                            <div className='tech-used'><p>• NodeJS</p> <img src={nodeJs} /></div>
                             <div className='tech-used'><p>• ExpressJS</p> <img src={express} /></div>
+                            <div className='tech-used'><p>• MongoDB</p> <img src={mongoDb} /></div>
                         </div>
                     </div>
 
                     <div className='project-links'>
                         <h3>links</h3>
                         <div className='links-contents'>
+                            <a href="https://friendly-alfajores-5eb56d.netlify.app/" target={"_blank"} className='content-link' ><div className='tech-used'><p>Live demo</p> <img src={rocket} /></div></a>
+                            <a href="https://github.com/BjornPython/Locate-Martial-arts-webpage" target={"_blank"} className='content-link' ><div className='tech-used'><p>Github Repo</p> <img src={github} /></div></a>
+                            <h3 style={{ color: "white", margin: "10px" }}>Deployed</h3>
+                            <a href="https://www.netlify.com" target={"_blank"} className='content-link' ><div className='tech-used'><p>Client in Netlify</p> <img src={netlify} /></div></a>
+                            <a href="https://www.render.com" target={"_blank"} className='content-link' ><div className='tech-used'><p>Backend Server in Render</p> <img src={render} id="render-icn" /></div></a>
+
                         </div>
                     </div>
 

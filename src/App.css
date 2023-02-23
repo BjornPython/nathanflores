@@ -3,5 +3,9 @@ html {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+a:-webkit-any-link {
+  color: inherit;
 }

@@ -171,7 +171,6 @@
 
 .tech-used-contents {
     margin-top: 20px;
-
     width: 90%;
     color: #446389;
     display: flex;
@@ -200,8 +199,32 @@
 .links-contents {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 20px;
+    row-gap: 5px;
+    color: #446389;
 }
 
+#render-icn {
+    height: 30px;
+    margin-top: 12px;
+}
+
+.content-link {
+    width: 100%;
+}
+
+.content-link .tech-used{
+    cursor: pointer;
+}
+
+.content-link .tech-used:hover {
+    color: gray;
+    
+}
 @media (max-width: 1300px) {
     .projects-contents {
         width: 95%;
