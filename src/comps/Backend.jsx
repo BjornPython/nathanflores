@@ -46,14 +46,17 @@ function Methodology() {
             </div>
             <hr />
             <h3>others</h3>
-            <div className='skill-div'>
-                <h3>• Heroku</h3>
-                <img src={heroku} alt="" className='tech-icn' />
+            <div className="skill-div-other">
+                <div className='skill-div other'>
+                    <h3>• Heroku</h3>
+                    <img src={heroku} alt="" className='tech-icn' />
+                </div>
+                <div className='skill-div other'>
+                    <h3>• Netlify</h3>
+                    <img src={netlify} alt="" className='tech-icn' />
+                </div>
             </div>
-            <div className='skill-div'>
-                <h3>• Netlify</h3>
-                <img src={netlify} alt="" className='tech-icn' />
-            </div>
+
 
 
         </div>

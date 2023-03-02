@@ -40,11 +40,8 @@ function ProjectContent() {
 
     return (
         <div className='project-content ' >
-            <video autoPlay loop muted className='project-image' src={locateDemo}></video>
-            {/* 
-            <video loop autoPlay={true} className='project-image'>
-                <source src={locateDemo} type="video/mp4" />
-            </video> */}
+            <video controls autoPlay loop muted className='project-image' src={locateDemo}></video>
+
 
             <div className='carousel-parent' >
                 <div className='carousel-div' style={{ ...carouselTransition }}>

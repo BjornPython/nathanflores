@@ -37,6 +37,8 @@
     height: 620px;
 }
 
+
+
 .back-project {
     background-color: #c7cdd6;
     height: 440px;
@@ -97,6 +99,11 @@
 .project-image {
     border-radius: 15px;
     width: 300px;
+}
+
+.project-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
 }
 
 .carousel-parent {

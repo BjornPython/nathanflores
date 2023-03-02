@@ -81,6 +81,17 @@
     width: 30px;
 }
 
+.skill-div-other {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.other {
+    width: 50%;
+    transform: scale(0.8);
+}
+
 @media (max-width: 850px) {
     .skills-contents {
         width: 100%;

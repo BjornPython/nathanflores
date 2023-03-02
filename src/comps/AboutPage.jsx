@@ -11,7 +11,7 @@ function AboutPage() {
                 <p className='main-about'>
                     I have a solid foundation in web development. I am skilled in using frontend frameworks such as React and Angular,
                     proficient in using HTML, CSS, and JavaScript, and experienced in using NodeJS, Python, and Flask in developing backend services
-                    and APIs, as well as working with MongoDB and firebase for database management.
+                    and APIs, as well as working with MongoDB and Firebase for database management.
                 </p>
 
                 <p>
