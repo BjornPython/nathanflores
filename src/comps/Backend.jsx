@@ -1,7 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPieChart } from '@fortawesome/free-solid-svg-icons'
-
 import nodeJs from "../svgs/node-js.svg"
 import mongoDb from "../svgs/mongodb-icon.svg"
 import python from "../svgs/python.svg"
@@ -10,6 +9,8 @@ import express from "../svgs/expressJS.svg"
 import heroku from "../svgs/heroku.svg"
 import netlify from "../svgs/netlify.svg"
 import firebase from "../svgs/firebase-icon.svg"
+import render from "../images/render.png"
+
 function Methodology() {
     return (
         <div className='skill-contents'>
@@ -47,14 +48,27 @@ function Methodology() {
             <hr />
             <h3>others</h3>
             <div className="skill-div-other">
-                <div className='skill-div other'>
-                    <h3>• Heroku</h3>
-                    <img src={heroku} alt="" className='tech-icn' />
+                <div className="skill-grp">
+                    <div className='skill-div other'>
+                        <h3>• Heroku</h3>
+                        <img src={heroku} alt="" className='tech-icn' />
+                    </div>
+                    <div className='skill-div other'>
+                        <h3>• Netlify</h3>
+                        <img src={netlify} alt="" className='tech-icn' />
+                    </div>
                 </div>
-                <div className='skill-div other'>
-                    <h3>• Netlify</h3>
-                    <img src={netlify} alt="" className='tech-icn' />
+                <div className="skill-grp">
+                    <div className='skill-div other'>
+                        <h3>• Render</h3>
+                        <img src={render} alt="" className='tech-icn' />
+                    </div>
+                    <div className='skill-div other'>
+                        <h3>• Netlify</h3>
+                        <img src={netlify} alt="" className='tech-icn' />
+                    </div>
                 </div>
+
             </div>
 
 

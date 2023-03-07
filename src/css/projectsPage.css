@@ -23,7 +23,6 @@
 
 .project {
     background: linear-gradient(#0CBABA, #0D324D);
-
     overflow: hidden;
     height: 400px;
 } 
@@ -93,6 +92,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 350px;
 
 }
 
@@ -276,7 +276,7 @@
 
     .project {
         height: 600px;
-        width: 300px;
+        width: 350px;
     }
 
     .back-project {
