@@ -3,18 +3,26 @@ import "../css/projectsPage.css"
 import website from "../images/locate-homepage.png"
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import {
+    faChevronLeft, faChevronRight, faArrowRightToBracket,
+    faCheckCircle, faCrop, faPenToSquare, faMessage
+} from '@fortawesome/free-solid-svg-icons'
 import js from "../svgs/javascript.svg"
 import reactIcon from "../svgs/react.svg"
-import redux from "../svgs/redux.svg"
 import nodeJs from "../svgs/node-js.svg"
-import mongoDb from "../svgs/mongodb-icon.svg"
-import express from "../svgs/expressJS.svg"
 import locateDemo from "../vids/locate-martial-arts-demo.mp4"
 import github from "../svgs/github.svg"
 import rocket from "../svgs/rocket.svg"
 import netlify from "../svgs/netlify.svg"
-import render from "../svgs/render.svg"
+import firebase from "../svgs/firebase-icon.svg"
+
+
+const displayIcon = (icon) => {
+    return (
+        <FontAwesomeIcon icon={icon} className="about-icn" />
+    )
+}
+
 function ProjectContent() {
 
     const [xVal, setxVal] = useState(0)
@@ -41,6 +49,7 @@ function ProjectContent() {
     return (
         <div className='project-content ' >
             <video controls autoPlay loop muted className='project-image' src={locateDemo}></video>
+            {/* <img className='project-image' src={locateDemo} /> */}
 
 
             <div className='carousel-parent' >
@@ -49,17 +58,22 @@ function ProjectContent() {
                     <div className='project-about'>
                         <h3>about</h3>
                         <div className='about-contents'>
-                            <p> A platform designed to bring martial artists together.
-                                Integrated with a working google maps like map,
-                                users can locate nearby fellow martial artists.
+                            <p> A website where users can share pictures of their favorite thrifted outfits,
+                                connect with other thrifters, and find inspiration for their
+                                next fashion style.
                             </p>
                         </div>
                         <div className='about-contents'>
-                            <p>• Search address autocomplete</p>
-                            <p>• Realtime Messaging Interface</p>
-                            <p>• User accounts</p>
-                            <p>• Customizable User Profile</p>
-                            <p>• Automatic user location</p>
+                            <div className="about-content"><p>• Login/Register with google </p>{displayIcon(faArrowRightToBracket)}</div>
+                            <div className="about-content"><p>• Google/Email Acc Verification</p>{displayIcon(faCheckCircle)}</div>
+                            <div className="about-content"><p>• Post/Profile image  Crop interface</p>{displayIcon(faCrop)}</div>
+                            <div className="about-content"><p>• Customizable User Accounts</p>{displayIcon(faPenToSquare)}</div>
+                            <div className="about-content"><p>• Realtime Messaging</p>{displayIcon(faMessage)}</div>
+
+                            {/* <p>• Google/Email Acc Verification</p>
+                            <p>• Post/Profile image  Crop interface</p>
+                            <p>• Customizable User Accounts</p>
+                            <p>• Realtime Messaging</p> */}
                             {/* <p>
                                 Users can search their addresses, create their personalized
                                 accounts, communicate with other members,
@@ -73,11 +87,9 @@ function ProjectContent() {
                         <h3>techUsed</h3>
                         <div className='tech-used-contents'>
                             <div className='tech-used'><p>• JavaScript</p> <img src={js} style={{ marginTop: "10px" }} /></div>
-                            <div className='tech-used'><p>• React</p> <img src={reactIcon} /></div>
-                            <div className='tech-used'><p>• Redux</p> <img src={redux} /></div>
                             <div className='tech-used'><p>• NodeJS</p> <img src={nodeJs} /></div>
-                            <div className='tech-used'><p>• ExpressJS</p> <img src={express} /></div>
-                            <div className='tech-used'><p>• MongoDB</p> <img src={mongoDb} /></div>
+                            <div className='tech-used'><p>• React</p> <img src={reactIcon} /></div>
+                            <div className='tech-used'><p>• Firebase</p> <img src={firebase} /></div>
                         </div>
                     </div>
 
@@ -88,7 +100,7 @@ function ProjectContent() {
                             <a href="https://github.com/BjornPython/Locate-Martial-arts-webpage" target={"_blank"} className='content-link' ><div className='tech-used'><p>Github Repo</p> <img src={github} /></div></a>
                             <h3 style={{ color: "white", margin: "10px" }}>Deployed</h3>
                             <a href="https://www.netlify.com" target={"_blank"} className='content-link' ><div className='tech-used'><p>Client in Netlify</p> <img src={netlify} /></div></a>
-                            <a href="https://www.render.com" target={"_blank"} className='content-link' ><div className='tech-used'><p>Backend Server in Render</p> <img src={render} id="render-icn" /></div></a>
+                            <a href="https://www.render.com" target={"_blank"} className='content-link' ><div className='tech-used'><p>Backend Server in Firebase</p> <img src={firebase} id="render-icn" /></div></a>
 
                         </div>
                     </div>

@@ -2,8 +2,8 @@ import React from 'react'
 import "../css/projectsPage.css"
 import "../scripts/script.js"
 import RoundedComponent from './RoundedComponent'
-import ProjectContent from './ProjectContent'
-
+import ProjectContent from './LocateProject'
+import ThriftProject from "./ThriftProject"
 function ProjectsPage() {
     return (
         <div className='projects-page'>
@@ -15,7 +15,7 @@ function ProjectsPage() {
                 </div>
 
                 <div className='hidden'>
-                    <RoundedComponent content={<ProjectContent />} frontCompClass="projectTwo" backCompClass="back-projectTwo" />
+                    <RoundedComponent content={<ThriftProject />} frontCompClass="projectTwo" backCompClass="back-projectTwo" />
                 </div>
 
                 <div className='hidden'>

@@ -236,6 +236,23 @@
     color: gray;
     
 }
+
+.about-content {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-icn {
+    font-size: 15px;
+    margin-right: 6px;
+    /* border: 1px solid gray;
+    border-radius: 40%;
+    padding: 3px; */
+    color: #446389;
+}
+
 @media (max-width: 1300px) {
     .projects-contents {
         width: 95%;
