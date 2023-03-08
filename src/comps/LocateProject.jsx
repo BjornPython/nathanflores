@@ -53,7 +53,7 @@ function ProjectContent() {
 
     return (
         <div className='project-content ' >
-            <video controls autoPlay loop muted className='project-image' src={locateDemo}></video>
+            {/* <video controls autoPlay loop muted className='project-image' src={locateDemo}></video> */}
 
 
             <div className='carousel-parent' >
@@ -68,24 +68,14 @@ function ProjectContent() {
                             </p>
                         </div>
                         <div className='about-contents'>
-                            {/* <p>• Search address autocomplete</p>
-                            <p>• Interactive Maps</p>
-                            <p>• Realtime Messaging Interface</p>
-                            <p>• Customizable User Accounts</p>
-                            <p>• Automatic user location</p> */}
+
 
                             <div className="about-content"><p>• Address Autocomplete</p>{displayIcon(faWandMagicSparkles)}</div>
                             <div className="about-content"><p>• Interactive Maps</p>{displayIcon(faMapLocationDot)}</div>
                             <div className="about-content"><p>• Realtime Messaging Interface</p>{displayIcon(faMessage)}</div>
                             <div className="about-content"><p>• Customizable User Accounts</p>{displayIcon(faPenToSquare)}</div>
                             <div className="about-content"><p>• Automatic user location</p>{displayIcon(faLocationCrosshairs)}</div>
-                            {/* <p>
-                                Users can search their addresses, create their personalized
-                                accounts, communicate with other members,
-                                and personalize their profile. All user information is stored
-                                in a MongoDB database, with jwt token auth verification
-                                providing a safe and secure platform.
-                            </p> */}
+
                         </div>
                     </div>
                     <div className='project-tech'>

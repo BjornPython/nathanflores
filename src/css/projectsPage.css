@@ -17,74 +17,30 @@
     width: 80%;
     color: white;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
+}
+
+.hidden {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .project {
     background: linear-gradient(#0CBABA, #0D324D);
     overflow: hidden;
-    height: 400px;
+    width: 350px;
 } 
-.project:hover {
-    transform: translateY(-10px);
-    height: 600px;
-}
-.project:hover + .back-project {
-    top: 25px;
-    left: 25px;
-    height: 620px;
-}
-
 
 
 .back-project {
     background-color: #c7cdd6;
-    height: 440px;
-}
-
-.projectTwo {
-    background: linear-gradient(#446389, #9198e5);
-
-    background-color: #446389;
-    overflow: hidden;
-    height: 400px;
-} 
-.projectTwo:hover {
-    transform: translateY(-10px);
-    height: 600px;
-}
-.projectTwo:hover + .back-projectTwo {
-    top: 25px;
-    left: 25px;
-    height: 620px;
-}
-
-.back-projectTwo {
-    background-color: #c7cdd6;
-    height: 440px;
-}
-
-.projectThree {
-    background: linear-gradient(#446389, #9198e5);
-
-    background-color: #446389;
-    overflow: hidden;
-    height: 400px;
-} 
-.projectThree:hover {
-    transform: translateY(-10px);
-    height: 600px;
-}
-.projectThree:hover + .back-projectThree {
-    top: 25px;
-    left: 25px;
-    height: 620px;
-}
-
-.back-projectThree {
-    background-color: #c7cdd6;
-    height: 440px;
+    width: 380px;
+    height: 470px;
 }
 
 .project-content {
@@ -97,14 +53,9 @@
 }
 
 .project-image {
-    border-radius: 15px;
-    width: 300px;
+    width: 600px;
 }
 
-.project-image:hover {
-    transform: scale(1.05);
-    transition: transform 0.2s ease-in-out;
-}
 
 .carousel-parent {
     margin-top: 20px;
@@ -163,7 +114,7 @@
 
 .project-btns {
     position: absolute;
-    top: 200px;
+    top: 40px;
     display: flex;
     width: 300px;
     justify-content: space-between;
@@ -171,7 +122,7 @@
 
 .arrow-btns {
     color: white;
-    height: 30px;
+    height: 25px;
     cursor: pointer;
 }
 
@@ -274,35 +225,7 @@
     .hidden {
     }
 
-    .project {
-        height: 600px;
-        width: 350px;
-    }
 
-    .back-project {
-        width: 330px;
-        height: 630px;
-    }
-
-    .projectTwo {
-        height: 600px;
-        width: 300px;
-    }
-
-    .back-projectTwo {
-        width: 330px;
-        height: 630px;
-    }
-
-    .projectThree {
-        height: 600px;
-        width: 300px;
-    }
-
-    .back-projectThree {
-        width: 330px;
-        height: 630px;
-    }
 }
 
 @media (max-width: 850px) {
