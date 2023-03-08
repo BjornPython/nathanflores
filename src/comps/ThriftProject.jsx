@@ -1,6 +1,4 @@
-import React from 'react'
 import "../css/projectsPage.css"
-import website from "../images/locate-homepage.png"
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -10,11 +8,11 @@ import {
 import js from "../svgs/javascript.svg"
 import reactIcon from "../svgs/react.svg"
 import nodeJs from "../svgs/node-js.svg"
-import locateDemo from "../vids/locate-martial-arts-demo.mp4"
 import github from "../svgs/github.svg"
 import rocket from "../svgs/rocket.svg"
 import netlify from "../svgs/netlify.svg"
 import firebase from "../svgs/firebase-icon.svg"
+
 
 
 const displayIcon = (icon) => {
@@ -48,7 +46,7 @@ function ProjectContent() {
 
     return (
         <div className='project-content ' >
-            <video controls autoPlay loop muted className='project-image' src={locateDemo}></video>
+            {/* <video controls autoPlay loop muted className='project-image' src={locateDemo}></video> */}
             {/* <img className='project-image' src={locateDemo} /> */}
 
 

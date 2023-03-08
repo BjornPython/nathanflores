@@ -25,9 +25,17 @@
 
 .hidden {
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+}
+
+.frontend-div {
+    justify-content: center;
+}
+
+.backend-div {
+    justify-content: center;
 }
 
 .project {
@@ -53,7 +61,7 @@
 }
 
 .project-image {
-    width: 600px;
+    width: 700px;
 }
 
 
