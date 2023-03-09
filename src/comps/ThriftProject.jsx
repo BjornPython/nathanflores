@@ -13,8 +13,6 @@ import rocket from "../svgs/rocket.svg"
 import netlify from "../svgs/netlify.svg"
 import firebase from "../svgs/firebase-icon.svg"
 
-
-
 const displayIcon = (icon) => {
     return (
         <FontAwesomeIcon icon={icon} className="about-icn" />
@@ -47,7 +45,7 @@ function ProjectContent() {
     return (
         <div className='project-content ' >
             {/* <video controls autoPlay loop muted className='project-image' src={locateDemo}></video> */}
-            {/* <img className='project-image' src={locateDemo} /> */}
+            {/* <img className='project-image' src={thrift} /> */}
 
 
             <div className='carousel-parent' >

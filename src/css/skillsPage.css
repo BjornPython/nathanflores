@@ -74,6 +74,7 @@
 
 .skill-div h3 {
     font-weight: 500;
+    margin: 0;
 }
 
 .tech-icn {
@@ -85,13 +86,14 @@
     width: 80%;
     display: flex;
 }
-
 .other {
     width: 100%;
     transform: scale(0.8);
+
 }
 
 .skill-grp {
+
     width: 50%;
 }
 @media (max-width: 850px) {
