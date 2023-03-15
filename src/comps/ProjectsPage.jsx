@@ -4,6 +4,7 @@ import "../scripts/script.js"
 import RoundedComponent from './RoundedComponent'
 import ProjectContent from './LocateProject'
 import ThriftProject from "./ThriftProject"
+import OtherProject from './OtherProject'
 import locateDemo from "../vids/locate-demo-laptop.mp4"
 import thriftDemo from "../vids/thrifts-demo.mp4"
 import construction from "../images/construction.png"
@@ -24,7 +25,7 @@ function ProjectsPage() {
                 </div>
 
                 <div className='hidden'>
-                    <RoundedComponent content={<ProjectContent />} frontCompClass="project" backCompClass="back-project" />
+                    <RoundedComponent content={<OtherProject />} frontCompClass="project" backCompClass="back-project" />
                     <img src={construction} alt="" className='project-image' />
                 </div>
 
