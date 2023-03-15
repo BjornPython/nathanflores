@@ -19,6 +19,7 @@ function ProjectsPage() {
                 </div>
 
                 <div className='hidden'>
+
                     <RoundedComponent content={<ThriftProject />} frontCompClass="project" backCompClass="back-project" />
                     <img className='project-image' src={thrift} />
                 </div>

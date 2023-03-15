@@ -42,11 +42,20 @@
 }
 
 .project {
-    
+    background: linear-gradient(#0CBABA, #0D324D);
+
 } 
 
+.project:hover {
+    transform: translateY(-20px);
+}
+
+.project:hover + .back-project {
+    transform: translateX(20px);
+}
 
 .back-project {
+    background-color: #c7cdd6;
 
 }
 

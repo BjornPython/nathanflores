@@ -10,7 +10,7 @@ import heroku from "../svgs/heroku.svg"
 import netlify from "../svgs/netlify.svg"
 import firebase from "../svgs/firebase-icon.svg"
 import render from "../images/render.png"
-import github from "../svgs/github.svg"
+import git from "../svgs/git.svg"
 function Methodology() {
     return (
         <div className='skill-contents'>
@@ -64,8 +64,8 @@ function Methodology() {
                         <img src={render} alt="" className='tech-icn' />
                     </div>
                     <div className='skill-div other'>
-                        <h3>• Github</h3>
-                        <img src={github} alt="" className='tech-icn' />
+                        <h3>• Git</h3>
+                        <img src={git} alt="" className='tech-icn' />
                     </div>
                 </div>
 
