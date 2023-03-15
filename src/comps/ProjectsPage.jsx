@@ -6,7 +6,7 @@ import ProjectContent from './LocateProject'
 import ThriftProject from "./ThriftProject"
 import locateDemo from "../vids/locate-demo-laptop.mp4"
 import thriftDemo from "../vids/thrifts-demo.mp4"
-
+import construction from "../images/construction.png"
 function ProjectsPage() {
     return (
         <div className='projects-page'>
@@ -19,14 +19,14 @@ function ProjectsPage() {
                 </div>
 
                 <div className='hidden'>
-
                     <RoundedComponent content={<ThriftProject />} frontCompClass="project" backCompClass="back-project" />
                     <video autoPlay loop muted className='project-image' src={thriftDemo}></video>
                 </div>
-                {/* 
+
                 <div className='hidden'>
-                    <RoundedComponent content={<ProjectContent />} frontCompClass="projectThree" backCompClass="back-projectThree" />
-                </div> */}
+                    <RoundedComponent content={<ProjectContent />} frontCompClass="project" backCompClass="back-project" />
+                    <img src={construction} alt="" className='project-image' />
+                </div>
 
             </div>
         </div>

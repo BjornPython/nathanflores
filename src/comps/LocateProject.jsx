@@ -81,11 +81,11 @@ function ProjectContent() {
                         <h3>techUsed</h3>
                         <div className='tech-used-contents'>
                             <div className='tech-used'><p>• JavaScript</p> <img src={js} style={{ marginTop: "10px" }} /></div>
-                            <div className='tech-used'><p>• React</p> <img src={reactIcon} /></div>
-                            <div className='tech-used'><p>• Redux</p> <img src={redux} /></div>
-                            <div className='tech-used'><p>• NodeJS</p> <img src={nodeJs} /></div>
-                            <div className='tech-used'><p>• ExpressJS</p> <img src={express} /></div>
-                            <div className='tech-used'><p>• MongoDB</p> <img src={mongoDb} /></div>
+                            <div className='tech-used'><p>• React</p> <img src={reactIcon} alt="" /></div>
+                            <div className='tech-used'><p>• Redux</p> <img src={redux} alt="" /></div>
+                            <div className='tech-used'><p>• NodeJS</p> <img src={nodeJs} alt="" /></div>
+                            <div className='tech-used'><p>• ExpressJS</p> <img src={express} alt="" /></div>
+                            <div className='tech-used'><p>• MongoDB</p> <img src={mongoDb} alt="" /></div>
                         </div>
                     </div>
 
