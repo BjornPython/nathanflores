@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/nathanflores/static/css/main.985ca965.css",
+    "main.js": "/nathanflores/static/js/main.7deec135.js",
+    "static/js/787.749b4a44.chunk.js": "/nathanflores/static/js/787.749b4a44.chunk.js",
+    "static/media/thrifts-demo.mp4": "/nathanflores/static/media/thrifts-demo.b372ab4c0a27eaf52a50.mp4",
+    "static/media/locate-demo-laptop.mp4": "/nathanflores/static/media/locate-demo-laptop.636e1b0bc65b8504142d.mp4",
+    "static/media/locate-homepage.png": "/nathanflores/static/media/locate-homepage.d3e7d86b6cfe0cf89ed6.png",
+    "static/media/flask.svg": "/nathanflores/static/media/flask.ab3f4e4fa9559f240d38c9cef53e87e1.svg",
+    "static/media/render.svg": "/nathanflores/static/media/render.8237c10249fb79fdbdc0e4b65cf0391e.svg",
+    "static/media/rocket.svg": "/nathanflores/static/media/rocket.cbfb45e4ead9519817c4d4565a73bd5b.svg",
+    "static/media/netlify.svg": "/nathanflores/static/media/netlify.5eac6aa2dd5a8077d3b2f8272f6aae6d.svg",
+    "static/media/expressJS.svg": "/nathanflores/static/media/expressJS.d91c10260d4508bc68149fc0bf48c1c0.svg",
+    "static/media/react.svg": "/nathanflores/static/media/react.0b444cdb639a488cc7470990d4b7b7a6.svg",
+    "static/media/logo.svg": "/nathanflores/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/gmail.svg": "/nathanflores/static/media/gmail.e63054e4dad72e0c58efb6c5b7b8184d.svg",
+    "static/media/redux.svg": "/nathanflores/static/media/redux.954b3f427d28b3746c04a3f317fcdcde.svg",
+    "static/media/node-js.svg": "/nathanflores/static/media/node-js.7ca28bcc5b19ce40dfc23043cfb31f27.svg",
+    "static/media/python.svg": "/nathanflores/static/media/python.2abc268ffd5e4bb1df19c10c0c79e501.svg",
+    "static/media/mongodb-icon.svg": "/nathanflores/static/media/mongodb-icon.0781b723446e1f8a1734f7831a9c3313.svg",
+    "static/media/drive.svg": "/nathanflores/static/media/drive.9daf04a1b68cd32107815793ac03d491.svg",
+    "static/media/html.svg": "/nathanflores/static/media/html.185baee7db74b83bf22eec6a6def7644.svg",
+    "static/media/css.svg": "/nathanflores/static/media/css.212d777ae2db63edb235490d487dc292.svg",
+    "static/media/github.svg": "/nathanflores/static/media/github.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
+    "static/media/javascript.svg": "/nathanflores/static/media/javascript.de4c2594613e34b15666206bbede7327.svg",
+    "index.html": "/nathanflores/index.html",
+    "static/media/git.svg": "/nathanflores/static/media/git.43d387b77657117c0e407816cbf72476.svg",
+    "static/media/angular.svg": "/nathanflores/static/media/angular.245ff2277a677845e7e8d18339766b54.svg",
+    "static/media/firebase-icon.svg": "/nathanflores/static/media/firebase-icon.82a35fc0b90d124a8e7333989f767fd3.svg",
+    "static/media/heroku.svg": "/nathanflores/static/media/heroku.68909cdaab8fd7949293dc7399eeb98b.svg",
+    "main.985ca965.css.map": "/nathanflores/static/css/main.985ca965.css.map",
+    "main.7deec135.js.map": "/nathanflores/static/js/main.7deec135.js.map",
+    "787.749b4a44.chunk.js.map": "/nathanflores/static/js/787.749b4a44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.985ca965.css",
+    "static/js/main.7deec135.js"
+  ]
+}
