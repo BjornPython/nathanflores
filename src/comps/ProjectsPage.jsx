@@ -5,7 +5,7 @@ import RoundedComponent from './RoundedComponent'
 import ProjectContent from './LocateProject'
 import ThriftProject from "./ThriftProject"
 import locateDemo from "../vids/locate-demo-laptop.mp4"
-import thrift from "../images/thrift.png"
+import thriftDemo from "../vids/thrifts-demo.mp4"
 
 function ProjectsPage() {
     return (
@@ -21,7 +21,7 @@ function ProjectsPage() {
                 <div className='hidden'>
 
                     <RoundedComponent content={<ThriftProject />} frontCompClass="project" backCompClass="back-project" />
-                    <img className='project-image' src={thrift} />
+                    <video autoPlay loop muted className='project-image' src={thriftDemo}></video>
                 </div>
                 {/* 
                 <div className='hidden'>
