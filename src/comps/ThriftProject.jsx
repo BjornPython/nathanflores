@@ -92,11 +92,11 @@ function ProjectContent() {
                     <div className='project-links'>
                         <h3>links</h3>
                         <div className='links-contents'>
-                            <a href="https://friendly-alfajores-5eb56d.netlify.app/" target={"_blank"} className='content-link' ><div className='tech-used'><p>Live demo</p> <img src={rocket} /></div></a>
-                            <a href="https://github.com/BjornPython/Locate-Martial-arts-webpage" target={"_blank"} className='content-link' ><div className='tech-used'><p>Github Repo</p> <img src={github} /></div></a>
+                            <a href="https://glittering-macaron-1c0b2e.netlify.app/" target={"_blank"} className='content-link' ><div className='tech-used'><p>Live demo</p> <img src={rocket} /></div></a>
+                            <a href="https://github.com/BjornPython/rate-my-thrift" target={"_blank"} className='content-link' ><div className='tech-used'><p>Github Repo</p> <img src={github} /></div></a>
                             <h3 style={{ color: "white", margin: "10px" }}>Deployed</h3>
                             <a href="https://www.netlify.com" target={"_blank"} className='content-link' ><div className='tech-used'><p>Client in Netlify</p> <img src={netlify} /></div></a>
-                            <a href="https://www.render.com" target={"_blank"} className='content-link' ><div className='tech-used'><p>Backend Server in Firebase</p> <img src={firebase} id="render-icn" /></div></a>
+                            <a href="https://firebase.google.com" target={"_blank"} className='content-link' ><div className='tech-used'><p>Backend Server in Firebase</p> <img src={firebase} id="render-icn" /></div></a>
 
                         </div>
                     </div>

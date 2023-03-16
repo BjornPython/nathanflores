@@ -18,7 +18,7 @@ function ContactPage() {
                 <h1>or</h1>
                 <div className="contact-me hidden">
                     <RoundedComponent content={<ContactInfo />} frontCompClass="contact-info" backCompClass="back-contact-info" />
-                    <h4>downloadCv()</h4>
+                    <a target={"_blank"} href="https://drive.google.com/drive/u/0/folders/1BJvl28CwNQyvjOlJbpLCjEBkMI8OxgjN"><h4>check resume</h4></a>
                 </div>
             </div>
         </div>

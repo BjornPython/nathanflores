@@ -16,7 +16,7 @@ function HomePage() {
 
             <HomeButtons />
             <div className='download-div'>
-                <button className='resume-btn'>myResume <img src={gdrive} className="file-icn" /></button>
+                <a target={"_blank"} href="https://drive.google.com/drive/u/0/folders/1BJvl28CwNQyvjOlJbpLCjEBkMI8OxgjN"><button className='resume-btn'>myResume <img src={gdrive} className="file-icn" /></button></a>
             </div>
             <h1 className='code-dsgn'>{"< />"}</h1>
         </div>

@@ -61,9 +61,8 @@ function OtherProject() {
                     <div className='project-about'>
                         <h3>about</h3>
                         <div className='about-contents'>
-                            <p> A Website for a pool construction company Affinity.
-                                Showcases the company's project, about,
-                                and how to contact them.
+                            <p> A website where a pool construction company.
+                                Displays their about page, their plans, a contact page, and showcases their past projects.
                             </p>
                         </div>
                         <div className='about-contents'>

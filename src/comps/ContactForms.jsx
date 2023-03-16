@@ -78,7 +78,7 @@ function ContactForms() {
             <textarea id="message" name="message" cols="30" rows="10" placeholder='Your mesage...' value={message} onChange={handleChange}  ></textarea>
 
             <div onClick={handleSubmit} className="submit-btn">
-                <h3>sendMessage()</h3>
+                <h3>send</h3>
             </div>
             {error &&
                 <div className='forms-err-msg'>
