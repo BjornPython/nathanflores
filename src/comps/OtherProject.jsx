@@ -61,7 +61,7 @@ function OtherProject() {
                     <div className='project-about'>
                         <h3>about</h3>
                         <div className='about-contents'>
-                            <p> A website where a pool construction company.
+                            <p> A website for a pool construction company.
                                 Displays their about page, their plans, a contact page, and showcases their past projects.
                             </p>
                         </div>
