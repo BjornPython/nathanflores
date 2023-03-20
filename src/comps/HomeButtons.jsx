@@ -8,7 +8,6 @@ function HomeButtons() {
     const [activeBtn, setActiveBtn] = useState(null);
 
     const handleBtnEnter = (btn) => {
-        console.log(btn);
         setActiveBtn(btn)
     }
 
@@ -16,9 +15,6 @@ function HomeButtons() {
         setActiveBtn(0)
     }
 
-    useEffect(() => {
-        console.log("ACTIVE BTN: ", activeBtn);
-    }, [activeBtn])
 
     return (
         <div className='home-btns'>

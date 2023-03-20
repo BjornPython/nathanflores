@@ -11,7 +11,7 @@ function HomePage() {
 
             <div className="name-bio">
                 <h1>Nathan Flores</h1>
-                <h3>software developer</h3>
+                <h3>Software Developer</h3>
             </div>
 
             <HomeButtons />

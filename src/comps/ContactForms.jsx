@@ -35,7 +35,6 @@ function ContactForms() {
             showError()
             setErrorMsg(<h3 style={{ color: "red" }}>Please Fill All Fields</h3>)
         } else {
-            console.log(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, formsValues, process.env.REACT_APP_PUBLICK_KEY);
             emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, formsValues, process.env.REACT_APP_PUBLICK_KEY)
                 .then((result) => {
                     console.log(result.text);

@@ -37,7 +37,6 @@ function ProjectContent() {
     }
 
     const handleLeftClick = () => {
-        console.log("CURRENT XVAL: ", xVal);
         if (xVal === 0) { return }
         else {
             console.log("setting x val"); setxVal(prevX => { return prevX += 300 })
@@ -92,7 +91,7 @@ function ProjectContent() {
                     <div className='project-links'>
                         <h3>links</h3>
                         <div className='links-contents'>
-                            <a href="https://friendly-alfajores-5eb56d.netlify.app/" target={"_blank"} className='content-link' ><div className='tech-used'><p>Live demo</p> <img src={rocket} /></div></a>
+                            <a href="https://locatemartialarts.netlify.app" target={"_blank"} className='content-link' ><div className='tech-used'><p>Live demo</p> <img src={rocket} /></div></a>
                             <a href="https://github.com/BjornPython/Locate-Martial-arts-webpage" target={"_blank"} className='content-link' ><div className='tech-used'><p>Github Repo</p> <img src={github} /></div></a>
                             <h3 style={{ color: "white", margin: "10px" }}>Deployed</h3>
                             <a href="https://www.netlify.com" target={"_blank"} className='content-link' ><div className='tech-used'><p>Client in Netlify</p> <img src={netlify} /></div></a>

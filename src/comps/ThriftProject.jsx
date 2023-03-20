@@ -92,7 +92,7 @@ function ProjectContent() {
                     <div className='project-links'>
                         <h3>links</h3>
                         <div className='links-contents'>
-                            <a href="https://glittering-macaron-1c0b2e.netlify.app/" target={"_blank"} className='content-link' ><div className='tech-used'><p>Live demo</p> <img src={rocket} /></div></a>
+                            <a href="https://ratemythrifts.netlify.app" target={"_blank"} className='content-link' ><div className='tech-used'><p>Live demo</p> <img src={rocket} /></div></a>
                             <a href="https://github.com/BjornPython/rate-my-thrift" target={"_blank"} className='content-link' ><div className='tech-used'><p>Github Repo</p> <img src={github} /></div></a>
                             <h3 style={{ color: "white", margin: "10px" }}>Deployed</h3>
                             <a href="https://www.netlify.com" target={"_blank"} className='content-link' ><div className='tech-used'><p>Client in Netlify</p> <img src={netlify} /></div></a>

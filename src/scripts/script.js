@@ -1,5 +1,7 @@
 
 window.onload = () => {
+    setTimeout(() => {
+
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if(entry.isIntersecting) {
@@ -15,4 +17,7 @@ window.onload = () => {
 
 
     hiddenElements.forEach((el) => {observer.observe(el)})
+
+    }, 500)
+
 }

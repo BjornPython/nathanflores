@@ -121,3 +121,9 @@
         margin-right: 0;
     }
 }
+
+@media (max-width: 390px) {
+    .skills-contents {
+        margin-top: 300px;
+    }
+}
